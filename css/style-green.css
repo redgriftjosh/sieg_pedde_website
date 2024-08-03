@@ -134,6 +134,18 @@ a:hover {
   background-color: #24b67e;
 }
 
+.arrow-text-button {
+  display: flex; 
+  justify-content: center; 
+  color: #24b67e;
+  text-decoration-line: underline;
+}
+
+.arrow-text-button:hover {
+  text-decoration-line: underline;
+  opacity: 0.6;
+}
+
 .overlay-mf {
   position: absolute;
   top: 0;
