@@ -240,10 +240,11 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-4">
                     <div class="service-box">
                         <div class="service-ico">
-                            <a href="http://www.lunixcorp.com/" target="_blank"><span class="ico-circle"><i class="ion-ios-lightbulb"></i></span></a>
+                            <a href="#" data-modal="lunix-modal" class="openModal" target="_blank"><span class="ico-circle"><i class="ion-ios-lightbulb"></i></span></a>
                         </div>
                         <div class="service-content">
                             <h2 class="s-title">Lunix</h2>
@@ -253,6 +254,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-4">
                     <div class="service-box">
                         <div class="service-ico">
@@ -839,6 +841,22 @@
             </div>
         </footer>
     </section>
+    <div id="lunix-modal" class="modal">
+        <div class="modal-content">
+            <h2 style="margin-bottom: 20px;">Lunix</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#" class="close" data-modal="lunix-modal">
+                <span class="ion-ios-close"></span>
+            </a>
+        </div>
+    </div>
+    <div id="eci-modal" class="modal">
+        <div class="modal-content">
+            <h2>Lunix</h2>
+            <p>This is a simple modal example.</p>
+            <a href="#" class="close" data-modal="eci-modal">Close</a>
+        </div>
+    </div>
     <!--/ Section Contact-footer End /-->
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
@@ -855,12 +873,15 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="lib/typed/typed.min.js"></script>
+
     <!-- Contact Form JavaScript File -->
     <script src="contactform/contactform.js"></script>
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
 
+    <!-- Modal JavaScript File -->
+    <script src="lib/modal/modal.js"></script>
 </body>
 
 </html>
