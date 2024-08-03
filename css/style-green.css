@@ -126,6 +126,10 @@ a:hover {
   overflow: hidden;
 }
 
+.about-us-link {
+  text-decoration-line: underline;
+}
+
 .overlay-mf {
   background-color: #24b67e;
 }
