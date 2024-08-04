@@ -134,6 +134,29 @@ a:hover {
   background-color: #24b67e;
 }
 
+.scribble-link-container {
+  display: flex; 
+  flex-direction: column; 
+  background-color: white; 
+  padding: 16px 24px;
+}
+
+.scribble-new-text {
+  font-size: 12px; 
+  margin-bottom: 6px; 
+  color: #24b67e
+}
+
+.scribble-title-text {
+  font-size: 18px; 
+  margin-bottom: 4px; 
+}
+
+.scribble-subtitle-text {
+  font-size: 14px; 
+  margin-bottom: 0px
+}
+
 .arrow-text-button {
   display: flex; 
   justify-content: center; 
